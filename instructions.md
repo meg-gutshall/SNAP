@@ -2,19 +2,19 @@ Flash has invited his nemesis The Turtle (He actually was a real villain! ) to p
 
 Each players cards will be represented by an array like below
 
-Flash’s pile: [ 'A', '5', 'Q', 'Q', '6', '2', 'A', '9', '10', '6', '4', '3', '10', '9', '3', '8', 'K', 'J', 'J', 'K', '7', '9', '5', 'J', '7', '2' ]
+Flash’s pile: `[ 'A', '5', 'Q', 'Q', '6', '2', 'A', '9', '10', '6', '4', '3', '10', '9', '3', '8', 'K', 'J', 'J', 'K', '7', '9', '5', 'J', '7', '2' ]`
 
-Turtle’s pile: [ '8', 'A', '2', 'Q', 'K', '8', 'J', '6', '4', '8', '7', 'A', '5', 'K', '3', 'Q', '6', '9', '4', '3', '4', '10', '2', '7', '10', '5' ]
+Turtle’s pile: `[ '8', 'A', '2', 'Q', 'K', '8', 'J', '6', '4', '8', '7', 'A', '5', 'K', '3', 'Q', '6', '9', '4', '3', '4', '10', '2', '7', '10', '5' ]`
 
 The players take it in turn to take the top card from their deck (the first element in their array) and place it in a face up pile in the middle. Flash goes first.
 
 When a card is placed on the face up pile that matches the card it is placed on top of the first player to shout ‘SNAP!’ wins that round. Due to Flash's speed he wins every round.
 
-Face up pile in the middle: [ 'A', '8', '5', 'A', 'Q', '2', 'Q', 'Q', => SNAP!
+Face up pile in the middle: `[ 'A', '8', '5', 'A', 'Q', '2', 'Q', 'Q' ] => SNAP!`
 
 The face up pile of cards in the middle are added to the bottom of Flash's pile.
 
-Flash’s pile after one round: ['6', '2', 'A', '9', '10', '6', '4', '3', '10', '9', '3', '8', 'K', 'J', 'J', 'K', '7', '9', '5', 'J', '7', '2', 'A', '8', '5', 'A', 'Q', '2', 'Q', 'Q' ]
+Flash’s pile after one round: `['6', '2', 'A', '9', '10', '6', '4', '3', '10', '9', '3', '8', 'K', 'J', 'J', 'K', '7', '9', '5', 'J', '7', '2', 'A', '8', '5', 'A', 'Q', '2', 'Q', 'Q' ]`
 
 Flash then starts the next round by putting down the next card.
 
